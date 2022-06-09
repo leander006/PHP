@@ -6,7 +6,7 @@
 
 
 
-// Connect
+// Connect to database 
 $Servername="localhost";
 $username="root";
 $password="";
@@ -29,7 +29,7 @@ $Sql="CREATE DATABASE demo" ;
 
 $result=mysqli_query($conn,$Sql);
 
-// To create 
+// To create table
 
 $sql = "CREATE TABLE `student` (`email` VARCHAR(40) NOT NULL , `password` VARCHAR(20) NOT NULL)";
 
