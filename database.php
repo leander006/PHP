@@ -22,14 +22,14 @@ else{
       echo "Connected successfully";
 }
 
- // To create table 
+ // To create database
 
 $Sql="CREATE DATABASE demo" ;
 
 
 $result=mysqli_query($conn,$Sql);
 
-// To create table
+// To create 
 
 $sql = "CREATE TABLE `student` (`email` VARCHAR(40) NOT NULL , `password` VARCHAR(20) NOT NULL)";
 
